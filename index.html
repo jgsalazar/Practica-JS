@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/codigo.js" defer></script>
+</head>
+<body>
+    <h1>Práctica Java Script</h1>
+    <h4>Seleccione una imagen</h4>
+    <table id="tb">
+        <tr>
+            <td class="col01">
+                <button onclick="boton(1)"><img src="img/toucan.png" width="30px" alt="Error">  1. Tucán</button> <br>
+                <button onclick="boton(2)"><img src="img/cat.png" width="30px" alt="Error">  2. Gato</button> <br>
+                <button onclick="boton(3)"><img src="img/fox.png" width="30px" alt="Error">  3. Zorro</button> <br>
+                <button onclick="boton(4)"><img src="img/koala.png" width="30px" alt="Error">  4. Koala</button> <br>
+                <button onclick="boton(5)"><img src="img/squirrel.png" width="30px" alt="Error">  5. Ardilla</button> <br>
+                <button onclick="boton(6)"><img src="img/whale.png" width="30px" alt="Error">  6. Ballena</button>
+            </td>
+
+            <td class="col02">
+                <img id="img01" src="img/wild-animals.png" width="200px" alt="Error"><br>
+                <div id="name0"></div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Ejercicio 1</h2>
+    <button onclick="reiniciar()">REINICIAR</button>
+
+    <h2>Ejercicio 2</h2>
+    <h4>Ingrese un número y presione "Buscar"</h4>
+    <table>
+        <tr>
+            <td class="col01"><input type="text" id="input2"></td>
+            <td class="col02"><button onclick="buscar()">BUSCAR</button></td>
+            <td class="col03"><img id="img02" src="" width="150px" alt=""> <br>
+            <div id="name"> </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Ejercicio 3</h2>
+    <h4>Ingrese un número y presione "Contar"</h4>
+    <table>
+        <tr>
+            <td class="col01"><input type="text" id="input3"></td>
+            <td class="col02"><button onclick="contar()">CONTAR</button></td>
+            <td class="col03"><img id="img03" src="" width="150px" alt=""> <br>
+            <div id="numLetras"> </div>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <p>
+        Autor: <em>Juan Gabriel Salazar Romero</em><br>
+        Grupo: <em>SIM-019.2</em>
+    </p>
+    
+</body>
+
+</html>
